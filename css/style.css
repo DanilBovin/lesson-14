@@ -133,6 +133,11 @@ header {
     flex-grow: 1;
 }
 
+.header-auth img {
+    width: 20px;
+    height: 20px;
+}
+
 .header-burger span {
     width: 100%;
     height: 3px;
@@ -197,6 +202,11 @@ header {
     width: calc(50% - 60px);
 }
 
+.hero-img img {
+    width: 250px;
+    height: 250px;
+}
+
 .hero-main {
     display: block;
     align-items: center;
@@ -211,13 +221,16 @@ header {
     display: block;
 }
 
-.hero main p {
+.hero-desc {
     font-family: 'Cera Pro';
     font-weight: 400;
     color: #3d3d3d;
+    text-align: center;
 }
 
 button {
+    display: block;
+    margin: auto;
     font-family: 'Cera Pro';
     width: 140px;
     height: 40px;
@@ -263,16 +276,68 @@ span {
     text-align: center;
 }
 
+.hero-main-3 h3 {
+    font-family: 'Cera Pro';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-main-3 img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero-main-3 img {
+    display: block;
+    margin: auto;
+}
+
+.hero-price img {
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+
+.hero-main-4 h3 {
+    font-family: 'Cera Pro';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-main-4 img {
+    display: block;
+    margin: auto;
+    width: 224px;
+    height: 26px;
+}
+
 .input-type {
+    display: block;
+    margin: auto;
     width: 354px;
     height: 40px;
     border-radius: 6px 0 0 6px;
+    border-style: none;
+    text-align: center;
 }
 
 .btn-join {
     border-radius: 0 6px 6px 0;
+    display: block;
+    margin: auto;
+}
+
+.hero-img img {
+    display: block;
+    margin: auto;
 }
 
 .hero-price img {
-    width: 100%;
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
 }

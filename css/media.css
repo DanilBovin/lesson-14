@@ -22,6 +22,11 @@
         margin: 0 0 0 25px;
     }
 
+    .header-auth img {
+        width: 20px;
+        height: 20px;
+    }
+
     .header-burger {
         display: block;
         position: absolute;
@@ -124,6 +129,11 @@
         width: 100%;
     }
 
+    .hero-img img {
+        width: 250px;
+        height: 250px;
+    }
+
     .hero-main a {
         font-family: 'Cera-Pro';
         text-decoration: none;
@@ -133,7 +143,7 @@
         text-align: center;
     }
 
-    .hero main p {
+    .hero-desc {
         font-family: 'Cera Pro';
         font-weight: 400;
         text-align: center;
@@ -141,6 +151,8 @@
     }
 
     button {
+        display: block;
+        margin: auto;
         font-family: 'Cera Pro';
         width: 140px;
         height: 40px;
@@ -183,17 +195,56 @@
         text-align: center;
     }
 
+    .hero-main-4 h3 {
+        font-family: 'Cera Pro';
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hero-main-3 h3 {
+        font-family: 'Cera Pro';
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hero-main-3 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-main-3 img {
+        display: block;
+        margin: auto;
+    }
+
+    .hero-main-4 img {
+        display: block;
+        margin: auto;
+        width: 224px;
+        height: 26px;
+    }
+
     .input-type {
+        display: block;
+        margin: auto;
         width: 354px;
         height: 40px;
         border-radius: 6px 0 0 6px;
+        border-style: none;
     }
 
     .btn-join {
         border-radius: 0 6px 6px 0;
+        display: block;
+        margin: auto;
     }
 
     .hero-price img {
-        width: 100%;
+       display: block;
+       margin: auto;
+       width: 20px;
+       height: 20px;
     }
 }
